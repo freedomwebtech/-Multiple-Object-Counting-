@@ -17,10 +17,7 @@ cap=cv2.VideoCapture("pe.mov")
 
 
 frame_count = 0
-hs={}
-line_y=365
-carcounter=0
-personcounterenter=0
+
 while True:
     ret, frame = cap.read()
     if not ret:
